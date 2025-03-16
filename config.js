@@ -19,7 +19,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "PUT YOUR SESSION ID HERE",
+SESSION_ID: process.env.SESSION_ID || "KERM-MD-V1~7YwgjLLC#J4ThXyw5CdUlmIF90RIOp_StqA2ckxXm1Qd99X1fXlM",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 MODE: process.env.MODE || "private",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
@@ -32,11 +32,11 @@ ANTI_BAD: process.env.ANTI_BAD || "true",
 PREFIX: process.env.PREFIX || ".",  
 FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
 FAKE_TYPING: process.env.FAKE_TYPING || "false",
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
 AUTO_REACT: process.env.AUTO_REACT || "false",
 HEART_REACT: process.env.HEART_REACT || "false",
 OWNER_REACT: process.env.OWNER_REACT || "false",
-BOT_NAME: process.env.BOT_NAME || "『𝗞𝗘𝗥𝗠 𝗠𝗗 𝗩1』",
+BOT_NAME: process.env.BOT_NAME || "X.N.O.R-MD",
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 };
